@@ -13,7 +13,7 @@
     @apply bg-sand text-text font-serif overflow-x-hidden;
   }
 
-  /* Custom Selection Color */
+  /* Custom Selection Color - Refined */
   ::selection {
     @apply bg-dune text-white;
   }

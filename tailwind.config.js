@@ -7,16 +7,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        sand: '#E6DEC7',
-        dune: '#C2B280',
-        sky: '#85C1E9',
-        shadow: '#2C3E50',
-        text: '#333333',
-        clay: '#C0392B',
-        white: '#Fdfbf7', // Soft white
+        sand: '#EAE5D9', // Softer, more pastel
+        dune: '#D4C5A9', // Muted ochre
+        sky: '#CEDFEA', // Pale, muted blue
+        indigo: '#5D6D7E', // Muted indigo
+        violet: '#8E8F99', // Muted violet
+        clay: '#B03A2E', // Muted clay
+        text: '#2C2C2C', // Soft black
+        white: '#FDFBF7', // Soft white
+        shadow: '#2C3E50', // Keep shadow for contrast
       },
       fontFamily: {
-        serif: ['Times New Roman', 'serif'],
+        serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
         sans: ['Inter', 'sans-serif'],
       },
       animation: {
